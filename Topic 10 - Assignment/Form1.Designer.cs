@@ -41,51 +41,66 @@
             this.btnDevils = new System.Windows.Forms.Button();
             this.lblInstructions = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
+            this.lblInfo2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogos)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPenguins
             // 
+            this.btnPenguins.BackColor = System.Drawing.Color.Black;
+            this.btnPenguins.Font = new System.Drawing.Font("Snap ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPenguins.ForeColor = System.Drawing.Color.Orange;
             this.btnPenguins.Location = new System.Drawing.Point(12, 55);
             this.btnPenguins.Name = "btnPenguins";
             this.btnPenguins.Size = new System.Drawing.Size(123, 41);
             this.btnPenguins.TabIndex = 0;
             this.btnPenguins.Text = "Penguins";
-            this.btnPenguins.UseVisualStyleBackColor = true;
+            this.btnPenguins.UseVisualStyleBackColor = false;
             this.btnPenguins.MouseHover += new System.EventHandler(this.btnPenguins_MouseHover);
             // 
             // btnKraken
             // 
-            this.btnKraken.Location = new System.Drawing.Point(12, 118);
+            this.btnKraken.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnKraken.Font = new System.Drawing.Font("Pristina", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKraken.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.btnKraken.Location = new System.Drawing.Point(166, 244);
             this.btnKraken.Name = "btnKraken";
             this.btnKraken.Size = new System.Drawing.Size(123, 41);
             this.btnKraken.TabIndex = 1;
             this.btnKraken.Text = "Kracken";
-            this.btnKraken.UseVisualStyleBackColor = true;
+            this.btnKraken.UseVisualStyleBackColor = false;
             this.btnKraken.MouseHover += new System.EventHandler(this.btnKraken_MouseHover);
             // 
             // btnLeafs
             // 
+            this.btnLeafs.BackColor = System.Drawing.Color.Blue;
+            this.btnLeafs.Font = new System.Drawing.Font("Tempus Sans ITC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeafs.ForeColor = System.Drawing.Color.White;
             this.btnLeafs.Location = new System.Drawing.Point(12, 181);
             this.btnLeafs.Name = "btnLeafs";
             this.btnLeafs.Size = new System.Drawing.Size(123, 41);
             this.btnLeafs.TabIndex = 2;
             this.btnLeafs.Text = "Leafs";
-            this.btnLeafs.UseVisualStyleBackColor = true;
+            this.btnLeafs.UseVisualStyleBackColor = false;
             this.btnLeafs.MouseHover += new System.EventHandler(this.btnLeafs_MouseHover);
             // 
             // btnKings
             // 
-            this.btnKings.Location = new System.Drawing.Point(12, 243);
+            this.btnKings.BackColor = System.Drawing.Color.Gray;
+            this.btnKings.Font = new System.Drawing.Font("Wide Latin", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKings.ForeColor = System.Drawing.Color.Black;
+            this.btnKings.Location = new System.Drawing.Point(16, 118);
             this.btnKings.Name = "btnKings";
             this.btnKings.Size = new System.Drawing.Size(123, 41);
             this.btnKings.TabIndex = 3;
             this.btnKings.Text = "Kings";
-            this.btnKings.UseVisualStyleBackColor = true;
+            this.btnKings.UseVisualStyleBackColor = false;
             this.btnKings.MouseHover += new System.EventHandler(this.btnKings_MouseHover);
             // 
             // btnClear
             // 
+            this.btnClear.Font = new System.Drawing.Font("Stencil", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.Black;
             this.btnClear.Location = new System.Drawing.Point(12, 311);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(123, 41);
@@ -119,42 +134,54 @@
             // 
             // btnBlackhawks
             // 
-            this.btnBlackhawks.Location = new System.Drawing.Point(166, 243);
+            this.btnBlackhawks.BackColor = System.Drawing.Color.Red;
+            this.btnBlackhawks.Font = new System.Drawing.Font("Onyx", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBlackhawks.ForeColor = System.Drawing.Color.White;
+            this.btnBlackhawks.Location = new System.Drawing.Point(12, 244);
             this.btnBlackhawks.Name = "btnBlackhawks";
             this.btnBlackhawks.Size = new System.Drawing.Size(123, 41);
             this.btnBlackhawks.TabIndex = 7;
             this.btnBlackhawks.Text = "Blackhawks";
-            this.btnBlackhawks.UseVisualStyleBackColor = true;
+            this.btnBlackhawks.UseVisualStyleBackColor = false;
             this.btnBlackhawks.MouseHover += new System.EventHandler(this.btnBlackhawks_MouseHover);
             // 
             // btnStars
             // 
+            this.btnStars.BackColor = System.Drawing.Color.Green;
+            this.btnStars.Font = new System.Drawing.Font("Magneto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStars.ForeColor = System.Drawing.Color.White;
             this.btnStars.Location = new System.Drawing.Point(166, 55);
             this.btnStars.Name = "btnStars";
             this.btnStars.Size = new System.Drawing.Size(123, 41);
             this.btnStars.TabIndex = 8;
             this.btnStars.Text = "Stars";
-            this.btnStars.UseVisualStyleBackColor = true;
+            this.btnStars.UseVisualStyleBackColor = false;
             this.btnStars.MouseHover += new System.EventHandler(this.btnStars_MouseHover);
             // 
             // btnBruins
             // 
+            this.btnBruins.BackColor = System.Drawing.Color.Gold;
+            this.btnBruins.Font = new System.Drawing.Font("Forte", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBruins.ForeColor = System.Drawing.Color.Black;
             this.btnBruins.Location = new System.Drawing.Point(166, 118);
             this.btnBruins.Name = "btnBruins";
             this.btnBruins.Size = new System.Drawing.Size(123, 41);
             this.btnBruins.TabIndex = 9;
             this.btnBruins.Text = "Bruins";
-            this.btnBruins.UseVisualStyleBackColor = true;
+            this.btnBruins.UseVisualStyleBackColor = false;
             this.btnBruins.MouseHover += new System.EventHandler(this.btnBruins_MouseHover);
             // 
             // btnDevils
             // 
+            this.btnDevils.BackColor = System.Drawing.Color.Red;
+            this.btnDevils.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDevils.ForeColor = System.Drawing.Color.Black;
             this.btnDevils.Location = new System.Drawing.Point(166, 181);
             this.btnDevils.Name = "btnDevils";
             this.btnDevils.Size = new System.Drawing.Size(123, 41);
             this.btnDevils.TabIndex = 10;
             this.btnDevils.Text = "Devils";
-            this.btnDevils.UseVisualStyleBackColor = true;
+            this.btnDevils.UseVisualStyleBackColor = false;
             this.btnDevils.MouseHover += new System.EventHandler(this.btnDevils_MouseHover);
             // 
             // lblInstructions
@@ -178,11 +205,22 @@
             this.lblInfo.Text = "label1";
             this.lblInfo.Visible = false;
             // 
+            // lblInfo2
+            // 
+            this.lblInfo2.AutoSize = true;
+            this.lblInfo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo2.Location = new System.Drawing.Point(12, 417);
+            this.lblInfo2.Name = "lblInfo2";
+            this.lblInfo2.Size = new System.Drawing.Size(66, 24);
+            this.lblInfo2.TabIndex = 13;
+            this.lblInfo2.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblInfo2);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.btnDevils);
@@ -219,6 +257,7 @@
         private System.Windows.Forms.Button btnDevils;
         private System.Windows.Forms.Label lblInstructions;
         private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.Label lblInfo2;
     }
 }
 
