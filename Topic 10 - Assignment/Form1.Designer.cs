@@ -67,7 +67,7 @@
             this.btnKraken.Name = "btnKraken";
             this.btnKraken.Size = new System.Drawing.Size(123, 41);
             this.btnKraken.TabIndex = 1;
-            this.btnKraken.Text = "Kracken";
+            this.btnKraken.Text = "Kraken";
             this.btnKraken.UseVisualStyleBackColor = false;
             this.btnKraken.MouseHover += new System.EventHandler(this.btnKraken_MouseHover);
             // 
@@ -214,6 +214,7 @@
             this.lblInfo2.Size = new System.Drawing.Size(66, 24);
             this.lblInfo2.TabIndex = 13;
             this.lblInfo2.Text = "label1";
+            this.lblInfo2.Visible = false;
             // 
             // Form1
             // 
